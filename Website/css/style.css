@@ -1,0 +1,453 @@
+
+.header {
+
+    background-color: #ffffff;
+    display: flex;
+    align-items:center;
+  }
+  
+  .img-header img{
+    flex: 1;
+    margin-right:10px;
+    width: 200px;
+    height: 90px;
+  }
+  
+  .txt-header h1{
+    width: 50px;
+    height: 30px;
+    margin-top: 1cm;
+    font-size: 200%;
+    color: #a11010;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    padding-bottom: 0.5cm;
+  }
+  
+  .txt-header2 h1{
+    height: 30px;
+    width: 50px;
+    padding-inline-start: 4.0cm;
+    margin-top: 1cm;
+    font-size: 200%;
+    color: #a11010;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    padding-bottom: 0.5cm;
+  }
+  
+  body {
+    background-color: #ffffff;
+    margin: 0;
+    font-size: large;
+  
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #faf9f9;
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float:left;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover, .dropdown:hover .dropbtn, .dropdown2:hover .dropbtn2{
+    background-color: #e4e2e2;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    font-weight: bold;
+    text-align: center;
+    padding: 13px 20px;
+    float: left;
+    background-color: #a11010;
+    color: #ffffff;
+  }
+  .topnav a.middle{
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    padding: 13px 20px;
+  }
+  
+  
+  .topnav a.left1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 13px 20px;
+    float: right;
+    color: #000000;
+  }
+  
+  .topnav a.left {
+    font-weight: bold;
+    text-align: center;
+    padding: 13px 20px;
+    float: right;
+    background-color: #a11010;
+    color: #ffffff;
+  }
+  
+  .dropdown, .dropdown2 {
+    font-weight: bold;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    color: #000000;
+    padding: 7px 20px;
+  }
+  
+  .dropdown .dropbtn, .dropdown2 .dropbtn2 {
+    font-weight: bold;
+    text-align: center;
+    float:left;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #000000;
+    padding: 5px 20px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  .dropdown-content, .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #fff0f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.397);
+    z-index: 1;
+  }
+  
+  .dropdown-content a, .dropdown-content2 a {
+    float: none;
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover, .dropdown-content2 a:hover, .topnav a.middle:hover, .topnav a.left1:hover {
+    background-color: #e4e2e2;
+    color: #a11010;
+  }
+  
+  .topnav a.active:hover, .topnav a.left:hover{
+    background-color: #faf9f9;
+    color:#a11010
+  }
+  
+  .dropdown:hover .dropdown-content, .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+  
+  .search{
+    padding: 0.4cm;
+  }
+  
+  .search input[type=text] {
+    border: 0.2px solid black;
+    margin-left: 20%;
+    padding: 2px 250px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 14px;
+    font-size: 17px;
+  }
+  
+  .search i{
+    padding: 2px 20px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 14px;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav a, .dropdown .dropbtn a, .dropdown2 .dropbtn2 a, .left, .left1{
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #3333;
+    }
+  }
+  
+  i{
+    color: #000000;
+  }
+  
+.row{
+    padding-top: 0.6cm;
+    background-color: #fff;
+  }
+  
+ h2{
+    text-align: center;
+    color: #a11010;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: ans-serif;
+  }
+  
+  .start{
+    padding-top: 0.6cm;
+    background-color: #fff;
+  }
+  
+  .start h2{
+    text-align: center;
+    color: #a11010;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+  
+  .intro{
+    padding: 2px 20px;
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 5%;
+    
+  }
+  
+  
+  .intro p{
+    margin-left: 0.3cm;
+    text-align:justify;
+    text-justify: inter-word;
+    color: #000000;
+  
+  }
+  
+  
+  .intro a {
+    text-align: left;
+    margin-left: 250px;
+    color: #f30b0b;
+    font-weight:bold;
+    font-style: oblique;
+    font-size: larger;
+    text-decoration: none;
+  }
+  
+  .intro i{
+    font-style: italic;
+    font-weight: bolder;
+    color: #0d0d0e;
+  }
+  
+  .intro:hover{
+    background-color: #9b9eac;
+    border-radius: 20%;
+  }
+  
+  .intro a:hover{
+    color: #a11010;
+  }
+  
+  .desc{
+    padding:8px 20px;
+    font-size: 20px;
+  
+  }
+  
+  .desc p{
+    margin-left: 0.3cm;
+    text-align: center;
+    text-justify: inter-word;
+  }
+  
+  .crd-cont{
+    display:flex;
+    text-align: center;
+  }
+  
+  .crd{
+    flex-flow: wrap;
+    padding-top: 1cm;
+    overflow: hidden;
+    border-radius: 20px;
+    border: .5px solid black;
+    margin-left: 10px;
+    background-color: #555;
+    flex: 1;
+    transition: .3s all ease;
+  }
+  
+  .crd:hover{
+    flex: 2;
+    background-color: #a11010;
+  
+  }
+  
+  .crd button{
+    color: #ffffff;
+    background-color: #10a19a;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+  
+  }
+  
+  .crd button:hover{
+    color: #a11010;
+    background-color: #ffffff;
+  }
+  
+  .crd h{
+    font-size: 40px;
+    text-align: center;
+    color: aqua;
+    
+  }
+  
+  .crd p{
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+  }
+
+  
+  .row img{
+    margin: 0;
+    width: 80%;
+    padding-left: 10%;
+  
+  }
+
+.final{
+    padding: 2px 20px;
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+  .final a.meet{
+    text-align: left;
+    margin-left: 250px;
+    color: #210aee;
+    font-weight:bold;
+    font-style: oblique;
+    font-size: larger;
+    text-decoration: none;
+  }
+
+  .final:hover{
+    background-color: #9b9eac;
+    border-radius: 20%;
+  }
+  .final a.meet:hover{
+    color: #a11010;
+  }
+  
+  .reg{
+    width: 100%;
+    margin:0;
+    background-color: #5a5757;
+    display: flex;
+  
+  }
+  
+  .reg-crd{
+  width: 100%;
+   flex-direction: column;
+   text-align: center;
+   margin: 0;
+  }
+  
+  .reg a, .reg li{
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #fafafa;
+    list-style: none;
+  }
+  
+  .reg li{
+    padding-bottom: 10px;
+    
+  }
+  
+  
+  .reg p:hover, .reg img:hover{
+    color: #a11010;
+  }
+
+
+  .quick-cont{
+    width: 100%;
+    margin:0;
+    display: flex;
+
+  }
+
+  .quick-crd{
+   width: 100%;
+   flex-direction: column;
+   text-align: center;
+   margin: 0;
+  }
+
+
+  .quick-crd li, .quick-crd a{
+    flex:2;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+
+
+  .footer{
+    display: block;
+    margin-top: 0.5cm;
+    padding-top: .2cm;
+    padding-bottom: .1cm;
+    background-color: #a11010;
+  
+  }
+  
+  .footer h{
+    padding-left: 45%;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 75%;
+  }
+  
+
+  
+  

@@ -1,0 +1,17 @@
+.row a{
+    display: flexbox;
+    text-align: left;
+    margin-left: 250px;
+    color: #0f0f0f;
+    font-weight:bold;
+    font-style: italic;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.row a:hover{
+    color: #a11010;
+    
+
+}
